@@ -4,6 +4,7 @@ class Variables {
         String name = "John";
         System.out.println(name);
 
+<<<<<<< HEAD
         int age = 27;
         System.out.println(age);
 
@@ -18,6 +19,21 @@ class Variables {
         // Final Variables
         final int DECEMBERDAYS = 31; // No change
         final String NAME = "Manolo"; // No change
+=======
+        int myNum = 15;
+        System.out.println(myNum);
+
+        int myOtherNum;
+        myOtherNum = 15;
+        System.out.println(myOtherNum);
+
+        int myNum2 = 15;
+        myNum2 = 20;
+        System.out.println(myNum2);
+
+        // Final Variables
+        final int myNum3 = 15;
+        // myNum3 = 20; -> Error
 
         // Other Types
         int myInt = 5;
@@ -79,5 +95,18 @@ class Variables {
         System.out.println("Length is: " + length);
         System.out.println("Width is: " + width);
         System.out.println("Area of the rectangle is: " + area);
+        char myLetter = 'D';
+        boolean myBool = true;
+        String myText = "Hello";
+
+        // Display Variables
+        String name2 = "John";
+        System.out.println(name2);
+
+        String firstName = "John";
+        String lastName = "Doe";
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
+>>>>>>> origin/main
     }
 }
