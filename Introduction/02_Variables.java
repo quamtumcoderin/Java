@@ -4,22 +4,6 @@ class Variables {
         String name = "John";
         System.out.println(name);
 
-<<<<<<< HEAD
-        int age = 27;
-        System.out.println(age);
-
-        int year;
-        year = 2025;
-        System.out.println(year);
-
-        String day = "Monday";
-        day = "Tuesday";
-        System.out.println(day);
-
-        // Final Variables
-        final int DECEMBERDAYS = 31; // No change
-        final String NAME = "Manolo"; // No change
-=======
         int myNum = 15;
         System.out.println(myNum);
 
@@ -42,7 +26,7 @@ class Variables {
         boolean myBool = true;
         String myString = "Hello";
 
-        // Print Varables
+        // Print Variables
         System.out.println("Hello" + name);
 
         String firstname = "John";
@@ -96,7 +80,7 @@ class Variables {
         System.out.println("Width is: " + width);
         System.out.println("Area of the rectangle is: " + area);
         char myLetter = 'D';
-        boolean myBool = true;
+        boolean myBool2 = true;
         String myText = "Hello";
 
         // Display Variables
@@ -104,9 +88,8 @@ class Variables {
         System.out.println(name2);
 
         String firstName = "John";
-        String lastName = "Doe";
-        String fullName = firstName + lastName;
-        System.out.println(fullName);
->>>>>>> origin/main
+        String lastName2 = "Doe";
+        String fullName2 = firstName + lastName2;
+        System.out.println(fullName2);
     }
 }

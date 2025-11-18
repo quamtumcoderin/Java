@@ -51,5 +51,13 @@ class Operators {
         System.out.println(x);
 
         // Real-Life Example
+        int savings = 100;
+        savings += 50;
+        System.out.println("Total savings: " + savings);
+
+        // Comparison Operators
+        System.out.println(x == y);
+        System.out.println(x != y);
+        
     }
 }
