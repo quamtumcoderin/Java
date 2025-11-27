@@ -53,5 +53,36 @@ class Strings {
         String c = "fun!";
         String result = a.concat(b).concat(c);
         System.out.println(result);
+
+        // Adding Numbers and Strings
+        int x = 10;
+        int y = 20;
+        int z = x + y;
+
+        System.out.println(z);
+
+        String xs = "10";
+        String ys = "20";
+        String zs = xs + ys;
+
+        System.out.println(zs);
+
+        System.out.println(x + ys);
+
+        // Special Characters
+        txt = "We are the so-called \"Vikings\" from the north.";
+        System.out.println(txt);
+
+        txt = "It\'s alriht.";
+        System.out.println(txt);
+
+        txt = "The character \\ is called backslash.";
+        System.out.println(txt);
+
+        txt = "New\nLine";
+        System.out.println(txt);
+
+        txt = "This\tTab";
+        System.out.println(txt);
     }
 }
